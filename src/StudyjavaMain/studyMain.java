@@ -7,8 +7,11 @@ public class studyMain {
 		System.out.println("hello Java!");
 		
 		//Practice_1 prac = new Practice_1();
-		Practice_2 prac = new Practice_2(3);
-		prac.calcSalt();
+//		Practice_2 prac = new Practice_2(3);
+//		prac.calcSalt();
+		
+		Practice1712 prac = new Practice1712(2100000000,9,10);
+		prac.calcComputer();
 	}
 
 }

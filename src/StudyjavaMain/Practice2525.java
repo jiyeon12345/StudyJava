@@ -19,20 +19,32 @@ public class Practice2525 {
 		
 		
 		afterOven = second + ovenTime;
-	
-		if(afterOven >= 60) {
-			time++;
-			afterOven -= 60;
+
+		// while을 돌면서 0보다 크면 도는거임. 근데 0보다 작으면 끝나고. 그럼 문제없이 작돌될 것임.
+		while (afterOven > 0) {
 			
-			//만약 시간이 120분이 지났다면 -60만 해서 나머지 60은 계산을 하지 못한다.
 			if(afterOven >= 60) {
 				time++;
 				afterOven -= 60;
-			}
-			if(time >= 24) {
-				time = 0;
+			}else if(afterOven < 60) {
+				break;
 			}
 		}
+		
+//		만약 시간이 120분이 지났다면 -60만 해서 나머지 60은 계산을 하지 못한다.
+//		이렇게 하나 더 적는건 코드 낭비.. 위에처럼 하면 문제없이 실행된다!
+//		if(afterOven >= 60) {
+//			time++;
+//			afterOven -= 60;
+//		}
+//			if(afterOven >= 60) {
+//				time++;
+//				afterOven -= 60;
+
+		if(time >= 24) {
+			time = 0;
+		}
+		
 		System.out.println("현재 시간 : " +time+ "시 " + afterOven +"분");
 	}
 	

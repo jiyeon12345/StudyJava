@@ -13,9 +13,12 @@ public class studyMain {
 //		Practice1712 prac = new Practice1712(2100000000,9,10);
 //		prac.calcComputer();
 		
-		Practice2525 prac = new Practice2525(10,0,60);
-		prac.calcTime();
+//		Practice2525 prac = new Practice2525(10,0,60);
+//		prac.calcTime();
 		//prac.calcAnswer();
+		
+		Practice1110 prac = new Practice1110(71);
+		prac.calcSum();
 	}
 
 }

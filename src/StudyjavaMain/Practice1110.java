@@ -4,10 +4,8 @@ public class Practice1110 {
 	private int firstNum;
 	private int tenDigitA;
 	private int oneDigitA;
-	private int tenDigitB;
 	private int oneDigitB;
 	private int secondNum;
-	private int thirdNum;
 	private int countNum;
 	private int finalNum;
 	
@@ -26,28 +24,34 @@ public class Practice1110 {
 			//첫번째 분리했던 값들을 더한다.
 			secondNum = tenDigitA + oneDigitA; 
 			
-			//만약 더한 값이 일의자리라면 else로 빠지고, 10의자리라면 또 나눈다.
-			if(secondNum >= 10) {
-				tenDigitB = secondNum/10;
-				oneDigitB = secondNum%10;
-			}else {
-				oneDigitB = secondNum%10;
-			}
+			oneDigitB = secondNum%10;
 			
 			//첫번째 일의자리 + 두번째의 일의자리를 더한다.
-			thirdNum = (oneDigitA*10) + oneDigitB;
+			firstNum = (oneDigitA*10) + oneDigitB;
 			//카운트를 하나씩 더한다.
 			countNum++;
 			
 			//만약 지정한 값(final)과 방금 더한 값(third)이 같다면 끝
-			if(finalNum == thirdNum) {
+			if(finalNum == firstNum) {
 				System.out.println("카운트넘버 :" + countNum);
 				break;
-			}else {
-				firstNum = thirdNum;
-				//아니라면 다시시작.
 			}
 		}
 	}
+	
+	//다른 정답 => 훨씬 깔끔하네. do while이 훨씬 좋아보인다.
+	//내꺼는 너무 서식이 나열되어있다면 이것은 모든것이 함축되어있다. 어느게 더 좋은 코드일까? 아무래도 짧고 함축되어있는게 더 좋은거겠지?
+	// 쩝......
+	public void answerSum() {
+		do {
+			firstNum = ((firstNum%10)*10) + //10의 자리 구하는 방법
+					(((firstNum/10)+(firstNum%10))%10); //1의 자리 구하는 방법
+			countNum++;
+			
+		}while(finalNum != firstNum);
+		System.out.println("카운트넘버 :" + countNum);
+
+	}
+
 
 }

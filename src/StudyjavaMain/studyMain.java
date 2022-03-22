@@ -17,8 +17,11 @@ public class studyMain {
 //		prac.calcTime();
 		//prac.calcAnswer();
 		
-		Practice1110 prac = new Practice1110(26);
-		prac.answerSum();
+//		Practice1110 prac = new Practice1110(26);
+//		prac.answerSum();
+		
+		Practice1436 prac = new Practice1436(500);
+		prac.calcEnd();
 	}
 
 }

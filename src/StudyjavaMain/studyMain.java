@@ -20,8 +20,11 @@ public class studyMain {
 //		Practice1110 prac = new Practice1110(26);
 //		prac.answerSum();
 		
-		Practice1436 prac = new Practice1436(500);
-		prac.calcEnd();
+//		Practice1436 prac = new Practice1436(500);
+//		prac.calcEnd();
+		
+		Practice14681 prac = new Practice14681(-9,-13);
+		prac.calcQuadrant();
 	}
 
 }

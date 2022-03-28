@@ -23,8 +23,11 @@ public class studyMain {
 //		Practice1436 prac = new Practice1436(500);
 //		prac.calcEnd();
 		
-		Practice14681 prac = new Practice14681(-9,-13);
-		prac.calcQuadrant();
+//		Practice14681 prac = new Practice14681(-9,-13);
+//		prac.calcQuadrant();
+		
+		Practice2750 prac = new Practice2750();
+		
 	}
 
 }

@@ -26,7 +26,10 @@ public class studyMain {
 //		Practice14681 prac = new Practice14681(-9,-13);
 //		prac.calcQuadrant();
 		
-		Practice2750 prac = new Practice2750();
+//		Practice2750 prac = new Practice2750();
+		
+		Practice10872 prac = new Practice10872(3);
+		prac.calcFactorial();
 		
 	}
 

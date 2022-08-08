@@ -25,7 +25,7 @@ public class PracticeProgrammers1 {
 class Solution {
     public boolean solution(String s) {
         boolean answer = true;
-// 내가 찾은 쉬운 방법        
+// 내가 찾은 쉬운 방법 -> 점수는 43점.
 //        answer = s.matches("-?\\d+");
 //        System.out.println(answer);
         

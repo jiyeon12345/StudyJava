@@ -1,5 +1,7 @@
 package StandardOfJava;
 
+import StandardOfJava.studyInheritance.Car;
+
 public class InstanceofTest {
 
 	public static void main(String[] args) {

@@ -1,5 +1,7 @@
 package StandardOfJava;
 
+import StandardOfJava.studyInheritance.Car;
+
 public class CastingTest1 {
 	public static void main(String args[]) {
 		Car car = null;

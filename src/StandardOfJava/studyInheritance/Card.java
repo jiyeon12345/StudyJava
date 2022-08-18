@@ -1,4 +1,4 @@
-package StandardOfJava;
+package StandardOfJava.studyInheritance;
 
 public class Card {
 	static final int KIND_MAX = 4;

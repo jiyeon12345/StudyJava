@@ -1,4 +1,4 @@
-package StandardOfJava;
+package StandardOfJava.studyInheritance;
 
 public class DeckTest {
 

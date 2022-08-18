@@ -1,6 +1,4 @@
-package StandardOfJava;
-
-import StandardOfJava.studyInheritance.Car;
+package StandardOfJava.studyInheritance;
 
 public class InstanceofTest {
 

@@ -1,4 +1,4 @@
-package StandardOfJava;
+package StandardOfJava.studyInheritance;
 
 public class Deck {
 	final int CARD_NUM = 52;

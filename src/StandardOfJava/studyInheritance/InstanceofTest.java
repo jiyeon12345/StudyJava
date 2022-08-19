@@ -1,9 +1,12 @@
 package StandardOfJava.studyInheritance;
 
 public class InstanceofTest {
-
+	public static int good  = 2;
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		
 		FireEngine fe = new FireEngine();
 		
 		if(fe instanceof FireEngine) {

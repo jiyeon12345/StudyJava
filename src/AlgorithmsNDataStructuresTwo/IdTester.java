@@ -12,9 +12,7 @@ class Id{
 }
 
 public class IdTester {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Id a = new Id();
 		Id b = new Id();
 		

@@ -30,7 +30,8 @@ public class BubbleSortTest1 {
 	}
 
 	private static void bubbleSort(int[] arr, int num) {
-		// TODO Auto-generated method stub
+		// index1 -> 마지막으로 검사하는 방법
+		// j가 0부터 검사하면, 마지막 값은 이미 나온거기 때문에 i는 --을 하면서 검색 범위를 좁혀간다!(주의)
 		for(int i = num-1; i > 0; i--) {
 			for(int j = 0; j<i; j++) {
 				if(arr[j] > arr[j+1])

@@ -33,7 +33,7 @@ public class Practice2438 {
 				}else{
 					System.out.print("*");
 				}
-				//test
+				//testtest
 			}
 			
 			System.out.println();

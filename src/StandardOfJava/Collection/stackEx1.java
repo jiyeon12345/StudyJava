@@ -56,6 +56,7 @@ public class stackEx1 {
 		back.push(url);
 		if(!forward.empty()) {
 			forward.clear();
+			
 		}
 	}
 

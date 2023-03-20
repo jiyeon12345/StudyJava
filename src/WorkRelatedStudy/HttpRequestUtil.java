@@ -12,9 +12,7 @@ import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.StringJoiner;
 
-import com.google.gson.Gson;
 
 public class HttpRequestUtil {
 
